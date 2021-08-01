@@ -1,0 +1,7 @@
+Observable Trends (python-API-challenge)
+
+1. Of the multiple weather metrics analyzed, only 'max temp' had a moderate to high correlation to the degrees of latitude of a given city.  Linear regression showed that max temperature shares a positive correlation to degrees of latitude in the southern hemisphere, and temperature shares a moderate to high negative correlation to degrees of latitude in the northern hemisphere.
+
+2. Cloudiness might be subjective based on reporting city.  A great deal of data points demonstrate cities reporting 0% or 100% cloudiness on a given day regardless of the distance from the equator on latitude parallels.  The other data points are not as concentrated along 0% and 100%.  The random coordinates used for this exercise were uniformly distributed between -90 and +90 in degrees latitude and longitude.
+
+3. Humidity and Wind Temperature do not seem to be tied to the city's latitude location from the equator.  The line regressions all had very small slope values and r squared values.
