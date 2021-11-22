@@ -1,7 +1,7 @@
 # python-api-challenge
 Python APIs: weather as we approach the equator
 
-Notes to grader/user:
+Notes to user:
 *  your own Google Cloud Platform and Openweathermap.org API keys will be required into a file named 'api_keys.py' within the folder /WeatherPy.  More info below.
 *  run these notebooks in Jupyter notebook, not in lab.  Geomaps apparently render better in jupyter notebook.
 
