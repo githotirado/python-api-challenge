@@ -1,7 +1,10 @@
 # python-api-challenge
-Python APIs: weather as we approach the equator
+Python APIs: use weather data from 500+ cities (from openweatherapi.org) to identify changes in temperature, humidity, wind speed, and cloudiness given a city's proximity to the equator.  Using Jupyter-gmaps and Google Places API, create a heat map displaying all cities with markers identifying ideal weather conditions for vacations (max temp between 70-80 degrees F, wind speed < 10mph, zero cloudiness).
 
-Notes to user:
+The resulting map plot:
+![heatmap](WeatherPy/output_data/HotelMarkersVacation.png)
+
+Notes to user for deployment:
 *  your own Google Cloud Platform and Openweathermap.org API keys will be required into a file named 'api_keys.py' within the folder /WeatherPy.  More info below.
 *  run these notebooks in Jupyter notebook, not in lab.  Geomaps apparently render better in jupyter notebook.
 
